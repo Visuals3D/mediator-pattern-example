@@ -1,5 +1,24 @@
 # MediatorQuePattern
 
+This is an example implementation of the Mediator Pattern. 
+The pettern it self is implemented here in the project: 
+
+````
+./src/app/services/mediator-pattern.service.ts
+````
+
+Everything else is just to get a visual representation of the patterns behavior:
+
+
+
+
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
 
 ## Development server
