@@ -9,11 +9,7 @@ The pettern it self is implemented here in the project:
 
 Everything else is just to get a visual representation of the patterns behavior:
 
-
-
-
-
-
+![image-20210525173948502](screen.png)
 
 
 
