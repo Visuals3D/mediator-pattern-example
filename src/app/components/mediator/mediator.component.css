@@ -1,0 +1,15 @@
+.mediator {
+    position: relative;
+    display: block;
+    margin: 10px;
+    height: 250px;
+    width: 520px;
+    text-align: center;
+    border: 2px solid #dad9d7;;
+    border-radius: 10px;
+}
+
+.jobList {
+    position: relative;
+    height: 64px;
+}

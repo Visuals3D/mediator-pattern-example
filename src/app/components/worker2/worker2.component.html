@@ -1,0 +1,15 @@
+<div class="worker">
+    <h2 style="color: #afc2d5;">WORKER 1</h2>
+    <p><b *ngIf="STATUS === 'FREE'" style="color: #70c1aa;">{{STATUS}}</b> <b *ngIf="STATUS === 'BUSY'" style="color: #f8485e;">{{STATUS}}</b></p>
+
+    <div class="jobList">
+        <div *ngFor="let job of jobList">
+            <p *ngIf="job.split(':')[1] === '0'" style="color: #f3c98b;">{{job}}</p>
+            <p *ngIf="job.split(':')[1] === '1'" style="color: #afc2d5">{{job}}</p>
+        </div>
+    </div>
+
+    <button (click)="startjob()">
+        Add Job
+    </button>
+</div>

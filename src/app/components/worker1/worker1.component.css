@@ -1,0 +1,27 @@
+.worker {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid #dad9d7;;
+    border-radius: 10px;
+}
+
+.jobList {
+    position: relative;
+    height: 64px;
+}
+
+button:hover {
+    border-color: #f3c98b;
+    background-color: #f3c98b;
+    color: white;
+  }
+
+  button {
+    border-color: #f3c98b;
+    background-color: white;
+    color: #f3c98b;
+  }
